@@ -1,0 +1,10 @@
+.shop .alert{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 30px;
+}
+.statusCurrent{
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 3px;
+}

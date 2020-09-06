@@ -1,0 +1,272 @@
+@media(min-width: 1200px){
+	.m-slider .container{
+		max-width: 100%;
+	}
+}
+@media(max-width: 1200px){
+	.private_profil{
+		padding-bottom: 25px;
+	}
+}
+@media(max-width: 992px){
+	.navbar-collapse ul li{
+		text-align: left;
+	    padding: 0;
+	    line-height: 6px;
+	}
+	.header_bottom .navbar{
+		padding: 6px;
+	}
+	.header_bottom .nav-link{
+		padding: 15px;
+   		 padding-left: 6px;
+	}
+	.header_top .container{
+		padding: 0;
+	}
+	.contact_rows {
+	    padding-top: 35px;
+	}
+	.contact_text p {
+	    font-size: 13px;
+	}
+	.language_block{
+		margin-left: 25px;
+	}
+	.btn-switch__label {
+	    display: inline-block;
+	    padding: 0px 15px 0px 5px;
+	    vertical-align: top;
+	    font-size: 6px;
+	    font-weight: 700;
+	    line-height: 0;
+	    color: #666;
+	    cursor: pointer;
+	    transition: color .2s ease-in-out;
+	}
+	#balance_blocks{
+	     width:100%;
+	}
+	.balance_top .card{
+		width: 100%;
+	}
+	.balance_bottom{
+		width: 100%;
+	}
+	
+	.private_form .col-md-9 input{
+		margin-bottom: 5px;
+	}
+	#pricing{
+		display: none;
+	}
+	#m-pricing{
+		display: block;
+	}
+}
+@media(max-width: 768px){
+	.language_block .dropdown{
+		text-align: center;
+	}
+	.language_block{
+		margin-left:0px;
+	}
+	#home_card .card{
+		margin-bottom: 25px;
+	}
+	#day_offer .row{
+		max-width: 400px;
+    	margin: auto;
+	}
+	footer .footer_block{
+		text-align: left!important;
+	}
+	.footer_logo{
+		text-align: left!important;
+	}
+	footer .footer_socials_block{
+		padding-left: 0;
+	}
+	.contact_text p {
+	    font-size: 13px;
+	    line-height: 14px;
+	}
+	.contact_rows{
+		padding: 0;
+	}
+	.nav-tabs .nav-item {
+	    width: 33.3%;
+	    margin: auto;
+	}
+	.nav-tabs .nav-item .world_block{
+		margin-bottom: 25px;
+	}
+	.world_calculate_bottom{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#contact_page .order1{
+		order: 2;
+	}
+	#contact_page .order2{
+		order: 1;
+	}
+	.contact_info_block .row{
+		margin: auto;
+	}
+	.contact_info{
+		padding-bottom: 50px;
+	}
+	.contact_form{
+		margin: auto;
+		width: 100%;
+	}
+	#myorder .table_head h2{
+		text-align: center;
+	}
+	.private_top h4 {
+	    font-size: 16px;
+	    margin: auto;
+	    margin-bottom: 15px;
+	}
+	.somewhere_block ul{
+		padding-left: 0px;
+	}
+	#carriage .row{
+		max-width: 400px;
+		margin: auto;
+	}
+	.dg-wrapper{
+		width: 100%;
+	}
+	.dg-wrapper a{
+		width: 100%;
+	}
+	/*slider*/
+	.m-carousel .swiper-wrapper{
+		height: 27.25rem;
+	}
+	.swiper-container{
+		height: 380px;
+	}
+	.a-bullets{
+		position: absolute;
+	    font-size: 0;
+	    width: 100%;
+	    left: 0;
+	    top: -50px;
+	    z-index: -1;
+	    height: 100%;
+	}
+	.m-slider .swiper-slide .container, .m-slider .swiper-slide .m-grid{
+		    margin-top: -18px;
+	}
+	.m-slider .m-carousel__desc h3{
+		    font-size: 26px;
+	}
+	.m-carousel .m-slider__container{
+		display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+	}
+	.header_top_right .row{
+		   display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	#home_card{
+		padding-top: 0;
+	}
+}
+@media(max-width: 576px){
+	.phone_text{
+		text-align: center!important;
+	}
+	.phone_text {
+	    padding-top: 6px;
+	    padding-bottom: 10px;
+	    font-size: 14px;
+	}
+	.phone {
+	    padding-top: 6px;
+	    padding-bottom: 10px;
+	    font-size: 14px;
+	}
+	.order_count_block{
+		padding-bottom: 15px;
+	}
+	#contact .media-576{
+		margin-bottom: 50px;
+	}
+	#shopping .shop_active{
+		margin-bottom: 50px;
+	}
+	.nav-tabs .nav-item {
+	    width: 50%;
+	    margin: auto;
+	}
+	#innovation .row{
+		max-width: 400px;
+    	margin: auto;
+	}
+	.contact_info_block .row{
+		text-align: left;
+	}
+	#contact_page .order1{
+		order: 1;
+	}
+	#contact_page .order2{
+		order: 2;
+	}
+	#account .flex-column{
+		padding-bottom: 25px;
+	}
+}
+@media(max-width: 600px){
+	.login_top {
+	    left: 32%;
+	}
+}
+@media(max-width: 550px){
+	.login_top .nav-tabs{
+		width: 100%;
+	}
+	.login_top ul li{
+		width: 100%;
+	}
+	.login_top #nav1{
+		    border-radius: 6px;
+	}
+	.login_bottom{
+		padding-top: 30px;
+	}
+	.sign_btn{
+		max-width: 200px;
+	}
+	.block-form .form-group{
+		max-width: 340px;
+	}
+}
+@media(max-width: 450px){
+	.dg-wrapper {
+	    margin-bottom: 50px;
+	}
+	.pricing_last tbody tr {
+	    line-height: 20px;
+	    font-size: 12px;
+	}
+	.m-slider .m-carousel__desc h3 {
+	    font-size: 21px;
+	}
+	.m-block{
+		display: block;
+	}
+	.m-none{
+		display: none;
+	}
+}
+@media(max-width: 400px){
+	.login_top {
+	    left: 26%;
+	}
+}
